@@ -15,7 +15,7 @@ document.querySelectorAll("input.plc-name").forEach(plc => {
         "user": "json",
         "password": "jsonpw"
     } })
-})
+})a
 .then(response => response.json())
 .then(response => tokens[plc.value] = response.result.token)
 })
