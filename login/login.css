@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(315deg, #7EE8FA, #EEC0C6);
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(82, 76, 76);
+    /* background-image: linear-gradient(315deg, #9FA4C4, #B3CDD1); */
+    border: 2px solid white;
+    position: fixed;
+    width: 480px;
+    height: 380px;
+    left: calc(50% - 240px);
+    top: calc(50% - 190px);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #a5a5a5;
+}
+
+button:hover {
+    background-color: rgb(82, 76, 76);
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.error {
+    color: #EEC0C6;
+}
